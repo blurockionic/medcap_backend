@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 // Uncomment and change frontend url for deployment
 
 const corsOptions = {
-    origin: 'https://medcap.vercel.app',
+    origin: 'https://medcape.vercel.app',
 };
 
 app.use(cors(corsOptions));
