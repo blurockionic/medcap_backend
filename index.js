@@ -29,7 +29,7 @@ app.use(cors(corsOptions));
 
 mongoose
     .connect(mongoDBURL, {
-        dbName: "Medcap DB", 
+        dbName: "Medcap_db", 
       })
     .then(() => {
         console.log(`connected to mongoDB database`);
